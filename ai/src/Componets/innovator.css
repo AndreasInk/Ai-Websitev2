@@ -1,0 +1,72 @@
+.Innovator {
+    background-color: black;
+    flex-direction: column;
+  padding: 2em;
+  }
+.Laptop {
+    text-align: center;
+    height: 80vh;
+  }
+
+  .ino-header {
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5em;
+ 
+
+  
+}
+
+.apps-feature {
+    width: 100vw;
+    display: flex;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .apps-feature-cell {
+    width: 35vw;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+  .apps-feature-img {
+    width: 3vw;
+    height: 3vw;
+    margin-top: 20%;
+  }
+  @media only screen and (max-width: 768px) {
+    .apps-feature-img {
+      width: 7vw;
+      height: 7vw;
+      margin-top: 20%;
+    }
+    .apps-feature-cell {
+       
+        width: 85vw;
+    
+        text-align: center;
+        align-items: center;
+        align-content: center;
+      }
+  }
+  .apps-feature-header {
+   
+  }
+  .apps-feature-caption {
+    width: 35vw;
+    
+    padding-top: 2em;
+    text-align: center;
+  }
+  @media only screen and (max-width: 768px) {
+    .apps-feature-caption {
+      width: 85vw;
+    
+      padding-top: 2em;
+      text-align: center;
+    }
+  }

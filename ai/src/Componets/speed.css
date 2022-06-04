@@ -1,0 +1,17 @@
+.Speed {
+    background-color: black;
+    flex-direction: column;
+  padding: 2em;
+  }
+
+
+  .speed-header {
+      color: white;
+    font-weight: 700;
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5em;
+ 
+
+  
+}

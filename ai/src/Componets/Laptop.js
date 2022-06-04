@@ -1,10 +1,12 @@
-import * as THREE from 'three'
-import { forwardRef } from 'react'
-import { Canvas, useFrame, useThree } from '@react-three/fiber'
-import { Html, useGLTF, softShadows, ScrollControls, useScroll, useTexture } from '@react-three/drei'
-import useRefs from 'react-use-refs'
-import laptop from "../res/mbp-v1-pipe.glb"
-import mock from "../res/Mock.svg"
+import * as THREE from 'three';
+import React from 'react'
+import { forwardRef } from 'react';
+import { Canvas, useFrame, useThree } from '@react-three/fiber';
+import { Html, useGLTF, softShadows, ScrollControls, useScroll, useTexture } from '@react-three/drei';
+import useRefs from 'react-use-refs';
+import laptop from "../res/mbp-v1-pipe.glb";
+import mock from "../res/Mock.svg";
+
 softShadows()
 const rsqw = (t, delta = 0.1, a = 1, f = 1 / (2 * Math.PI)) => (a / Math.atan(1 / delta)) * Math.atan(Math.sin(2 * Math.PI * t * f) / delta)
 
