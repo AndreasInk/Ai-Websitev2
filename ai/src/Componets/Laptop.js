@@ -4,6 +4,7 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Html, useGLTF, softShadows, ScrollControls, useScroll, useTexture } from '@react-three/drei'
 import useRefs from 'react-use-refs'
 import laptop from "../res/mbp-v1-pipe.glb"
+import mock from "../res/Mock.svg"
 softShadows()
 const rsqw = (t, delta = 0.1, a = 1, f = 1 / (2 * Math.PI)) => (a / Math.atan(1 / delta)) * Math.atan(Math.sin(2 * Math.PI * t * f) / delta)
 
@@ -21,7 +22,7 @@ function Composition({ ...props }) {
   const scroll = useScroll()
   const { width, height } = useThree((state) => state.viewport)
   const [group, mbp16, mbp14, keyLight, stripLight, fillLight, left, right] = useRefs()
-  const [textureRed, textureBlue] = useTexture(['/Chroma Red.jpg', '/Chroma Blue.jpg'])
+  const [textureRed, textureBlue] = useTexture([mock, mock])
   useFrame((state, delta) => {
     const r1 = scroll.range(0 / 4, 1 / 4)
     const r2 = scroll.range(1 / 4, 1 / 4)
