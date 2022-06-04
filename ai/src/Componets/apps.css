@@ -46,6 +46,7 @@
   .app-feature-img-div {
     width: 25vw;
   }
+
   .apps-feature-img {
     width: 3vw;
     height: 3vw;
@@ -57,6 +58,9 @@
       width: 7vw;
       height: 7vw;
       margin-top: 20%;
+    }
+    .app-feature-img-div {
+        width: 65vw;
     }
   }
   .apps-feature-header {
@@ -74,6 +78,9 @@
       
       padding-top: 2em;
       text-align: center;
+    }
+    .apps-feature-header {
+        width: 65vw;
     }
   }
   

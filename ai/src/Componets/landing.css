@@ -3,6 +3,7 @@
     background-color: black;
     text-align: center;
     position: relative;
+    overflow-x:visible;
   }
   .Stack {
     width: 100vw;
@@ -37,7 +38,7 @@
     }
   }
   .subheader {
-    margin: auto;
+    margin: 0em;
     font-weight: 700;
 
     text-align: center;
@@ -54,3 +55,11 @@
   }
  
   
+  @media only screen and (max-width: 768px) {
+    .Land {
+        height: 60vh;
+        
+       
+        position: relative;
+      }
+  }

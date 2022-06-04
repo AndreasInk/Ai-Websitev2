@@ -38,7 +38,7 @@ function Image(props) {
   )
 }
 
-function Page({ m = 0.4, urls, ...props }) {
+function Page({ m = 0.2, urls, ...props }) {
   const { width } = useThree((state) => state.viewport)
   const w = width < 10 ? 1.5 / 3 : 1 / 3
   return (

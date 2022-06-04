@@ -8,7 +8,11 @@
   align-content: center;
   }
 
-
+  /* @media only screen and (max-width: 768px) {
+    .Speed {
+        margin-top: 70%;
+    }
+  } */
   .speed-header {
       color: white;
     font-weight: 700;
