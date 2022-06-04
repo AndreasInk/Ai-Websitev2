@@ -41,7 +41,7 @@ function Composition({ ...props }) {
   return (
     <>
       <spotLight position={[0, -width * 0.7, 0]} intensity={0.5} />
-      <directionalLight ref={keyLight} castShadow intensity={6}>
+      <directionalLight ref={keyLight} castShadow intensity={0.8}>
         <orthographicCamera attachObject={['shadow', 'camera']} args={[-10, 10, 10, -10, 0.5, 30]} />
       </directionalLight>
       <group ref={group} position={[0, -height / 2.65, 0]} {...props}>
