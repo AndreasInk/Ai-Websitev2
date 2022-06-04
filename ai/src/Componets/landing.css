@@ -1,0 +1,51 @@
+.Landing {
+    background-color: black;
+    text-align: center;
+    position: relative;
+  }
+  .Stack {
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  
+  .Header {
+      margin: auto;
+      text-align: center;
+      
+    font-size: 96px;
+    background: -webkit-linear-gradient(#5D43D7, #65CAFA);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+  @media only screen and (max-width: 768px) {
+    .Header {
+        margin-top: 0.5em;
+        font-size: 56px;
+        
+    }
+    .subheader {
+        font-size: 26px;
+    }
+  }
+  .subheader {
+    margin: auto;
+
+    text-align: center;
+    margin-top: 0.5em;
+    font-weight: lighter;
+    color: white;
+}
+  .Land {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: relative;
+  }
+ 
+  
