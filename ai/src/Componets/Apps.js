@@ -2,7 +2,7 @@
 import React from 'react'
 import './apps.css';
 import Appz from "../res/Mock.svg"
-function Apps() {
+function Apps(props) {
   return (
     <div className="section apps" id="apps">
 
@@ -12,34 +12,30 @@ function Apps() {
     <div className="apps-feature">
       <div className="apps-feature-cell">
           <div className='app-feature-img-div'>
-        <img alt="icon" className="apps-feature-img " src={Appz} />
+        <img alt="icon" className="apps-feature-img " src={props.app1.img} />
         </div>
-        <h3 className="apps-feature-header">Background Processing</h3>
+        <h3 className="apps-feature-header">{props.app1.header}</h3>
         <caption className="apps-feature-caption">
-          A remarkably convenient algorithm that can run when the app is
-          closed to alert you of stress events such as infection
+       {props.app1.caption}
         </caption>
       </div>
     
       <div className="apps-feature-cell">
           <div className='app-feature-img-div'>
-        <img alt="icon" className="apps-feature-img " src={Appz} />
+        <img alt="icon" className="apps-feature-img " src={props.app2.img} />
         </div>
-        <h3 className="apps-feature-header">Background Processing</h3>
+        <h3 className="apps-feature-header">{props.app2.header}</h3>
         <caption className="apps-feature-caption">
-          A remarkably convenient algorithm that can run when the app is
-          closed to alert you of stress events such as infection
+       {props.app2.caption}
         </caption>
       </div>
-
       <div className="apps-feature-cell">
           <div className='app-feature-img-div'>
-        <img alt="icon" className="apps-feature-img " src={Appz} />
+        <img alt="icon" className="apps-feature-img " src={props.app3.img} />
         </div>
-        <h3 className="apps-feature-header">Background Processing</h3>
+        <h3 className="apps-feature-header">{props.app3.header}</h3>
         <caption className="apps-feature-caption">
-          A remarkably convenient algorithm that can run when the app is
-          closed to alert you of stress events such as infection
+       {props.app3.caption}
         </caption>
       </div>
     </div>

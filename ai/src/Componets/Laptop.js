@@ -5,8 +5,8 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Html, useGLTF, softShadows, ScrollControls, useScroll, useTexture } from '@react-three/drei';
 import useRefs from 'react-use-refs';
 import laptop from "../res/mbp-v1-pipe.glb";
-import mock from "../res/Mock.svg";
-
+import mac14 from "../res/Mac14.png";
+import mac16 from "../res/Mac16.png";
 softShadows()
 const rsqw = (t, delta = 0.1, a = 1, f = 1 / (2 * Math.PI)) => (a / Math.atan(1 / delta)) * Math.atan(Math.sin(2 * Math.PI * t * f) / delta)
 
@@ -24,7 +24,7 @@ function Composition({ ...props }) {
   const scroll = useScroll()
   const { width, height } = useThree((state) => state.viewport)
   const [group, mbp16, mbp14, keyLight, stripLight, fillLight, left, right] = useRefs()
-  const [textureRed, textureBlue] = useTexture([mock, mock])
+  const [textureRed, textureBlue] = useTexture([mac14, mac16])
   useFrame((state, delta) => {
     const r1 = scroll.range(0 / 4, 1 / 4)
     const r2 = scroll.range(1 / 4, 1 / 4)
@@ -48,10 +48,10 @@ function Composition({ ...props }) {
         <spotLight ref={stripLight} position={[width * 2.5, 0, width]} angle={0.19} penumbra={1} intensity={0.25} />
         <spotLight ref={fillLight} position={[0, -width / 2.4, -width * 2.2]} angle={0.2} penumbra={1} intensity={2} distance={width * 3} />
         <M1 ref={mbp16} texture={textureRed} scale={width / 67}>
-          <Tag ref={left} position={[16, 5, 0]} head="up to" stat="13x" expl={`faster\ngraphics\nperformance²`} />
+          <Tag ref={left} position={[16, 5, 0]} head="" stat="x2" expl={`App Store Trending`} />
         </M1>
         <M1 ref={mbp14} texture={textureBlue} scale={width / 77} rotation={[0, Math.PI, 0]} position={[0, 0, -width / 2.625]}>
-          <Tag ref={right} position={[10, 14, 0]} head="up to" stat="3.7x" expl={`faster CPU\nperformance¹`} />
+          <Tag ref={right} position={[10, 14, 0]} head="" stat="1,500+" expl={`Git Contributions in 2021¹`} />
         </M1>
       </group>
     </>
