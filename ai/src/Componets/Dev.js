@@ -19,9 +19,9 @@ function Dev() {
         <h2 className='subheader'>Andreas develops high quality software and has a track record to prove it </h2>
    <AppShowCase/>
    <div  className='showcase-div'> 
-  <h1>What's Next?</h1>
+  <h1 style={{marginTop: "2em"}}>What's Next?</h1>
       <img className="showcase" src={Cer}></img>
-      <a href='https:/cerebellia.com'>
+      <a href='https://cerebellia.com'>
    <h2>Cerebellia</h2>
    </a>
       </div>

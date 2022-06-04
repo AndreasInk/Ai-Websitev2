@@ -51,7 +51,7 @@ function Composition({ ...props }) {
           <Tag ref={left} position={[16, 5, 0]} head="" stat="x2" expl={`App Store Trending`} />
         </M1>
         <M1 ref={mbp14} texture={textureBlue} scale={width / 77} rotation={[0, Math.PI, 0]} position={[0, 0, -width / 2.625]}>
-          <Tag ref={right} position={[10, 14, 0]} head="" stat="1,500+" expl={`Git Contributions in 2021¹`} />
+          <Tag ref={right} position={[10, 14, 0]} head="" stat="1,500+" expl={`Git Contributions in 2021`} />
         </M1>
       </group>
     </>

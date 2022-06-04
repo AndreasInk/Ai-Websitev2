@@ -19,10 +19,11 @@
       text-align: center;
       margin-top: 0.5em;
     font-size: 96px;
-    background: -webkit-linear-gradient(#5D43D7, #65CAFA);
+    color: white;
+    /* background: -webkit-linear-gradient(#5D43D7, #65CAFA);
     background-size: 100%;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     
   }
   @media only screen and (max-width: 768px) {
@@ -43,6 +44,7 @@
     margin-top: 1.0em;
     font-weight: normal;
     color: white;
+    opacity: 0.6;
 }
   .Land {
     height: 100vh;
