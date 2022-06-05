@@ -84,7 +84,7 @@ function Footer() {
          <p>
           <a
             className="footer-text"
-            href="http://andreasink.web.app/src/res/Andreas_Ink_Resume.docx"
+            href="https://docs.google.com/document/d/1iPS7p4BwRpt5L15kWnQKoMensrvL8aqo/edit?usp=sharing&ouid=104036935710938498548&rtpof=true&sd=true"
           >
             Resume
           </a>
