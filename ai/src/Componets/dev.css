@@ -1,5 +1,5 @@
 .showcase {
-    width: 90vw;
+    width: 50vw;
 
 }
 .showcase-div {
@@ -8,4 +8,44 @@
     align-items: center;
     align-self: center;
     align-content: center;
+    position: relative;
+}
+
+
+
+
+/* CSS */
+.button-1 {
+    margin: auto;
+  margin-top: 5em;
+  background-color: white;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+
+  line-height: 20px;
+  list-style: none;
+  
+  outline: none;
+  padding: 5% 20%;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #FFFD;
+  
 }

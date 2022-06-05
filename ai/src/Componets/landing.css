@@ -29,8 +29,18 @@
   }
   @media only screen and (max-width: 768px) {
     .Header {
+        margin-top: 0.2em;
+        font-size: 46px;
+        
+    }
+    .subheader {
+       
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .Header2 {
         margin-top: 0.5em;
-        font-size: 56px;
+        font-size: 46px;
         
     }
     .subheader {
@@ -42,7 +52,7 @@
     font-weight: 700;
 
     text-align: center;
-    margin-top: 1.0em;
+    margin-top: 2.0em;
     font-weight: normal;
     color: white;
     opacity: 0.6;
@@ -50,6 +60,7 @@
   .Land {
     height: 100vh;
     width: 100vw;
+    
     object-fit: cover;
     position: relative;
   }

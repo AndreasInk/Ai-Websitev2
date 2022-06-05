@@ -6,6 +6,7 @@ import Landing from './Componets/Landing';
 import Innovator from './Componets/Innovator';
 import Speed from './Componets/Speed';
 import Dev from './Componets/Dev';
+import Footer from './Componets/Footer';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       
       <Speed/>
       <Dev/>
+      <Footer/>
     </div>
   );
 }

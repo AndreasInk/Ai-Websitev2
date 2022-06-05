@@ -19,17 +19,17 @@ function Dev() {
         <h2 className='subheader'>Andreas develops high quality software and has a track record to prove it </h2>
    <AppShowCase/>
    <div  className='showcase-div'> 
-  <h1 style={{marginTop: "2em"}}>What's Next?</h1>
+  <h1 style={{margin: "1em"}}>What's Next?</h1>
       <img className="showcase" src={Cer}></img>
       <a href='https://cerebellia.com'>
-   <h2>Cerebellia</h2>
+      <button class="button-1" role="button">Explore Cerebellia</button>
    </a>
       </div>
       <div  className='showcase-div'> 
       
       <img className="showcase" src={Vit}></img>
-      <a href='https://vito-website.vercel.app'>
-      <h2>Vito</h2>
+      <a className="btn-cta" href='https://vito-website.vercel.app'>
+      <button class="button-1" role="button">Explore Vito</button>
       </a>
       
       </div>

@@ -23,6 +23,12 @@
 
   
 }
+.speed-img-div {
+    margin: auto;
+    width: 50%;
+ 
+}
 .speed-img {
-    width: 90vw;
+    width: 50vw;
+    
 }

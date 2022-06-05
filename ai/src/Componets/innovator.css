@@ -5,7 +5,7 @@
   }
 .Laptop {
     text-align: center;
-    height: 120vh;
+    height: 70vh;
   }
 
   .ino-header {
@@ -21,7 +21,7 @@
 .apps-feature {
     width: 100vw;
     display: flex;
-    margin-top: 10%;
+    margin-top: 2%;
     text-align: center;
     align-items: center;
     align-content: center;
