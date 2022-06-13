@@ -14,7 +14,7 @@ function Footer() {
           </a>
         </p>
         <p>
-          <a className="footer-text" href="https://vito-website.vercel.app">
+          <a className="footer-text" href="https://vitovital.org">
             Vito
           </a>
         </p>
@@ -29,7 +29,7 @@ function Footer() {
             Rhythm
           </a>
         </p>
-          <a className="footer-text" href="https://gomobilex.com">
+          <a className="footer-text" href="https://testflight.apple.com/join/EAS6LvOs">
             GoMobileX
           </a>
         </p>
@@ -39,7 +39,7 @@ function Footer() {
           </a>
         </p>
         <p>
-          <a className="footer-text" href="https://covidwatch.org">
+          <a className="footer-text" href="https://github.com/covidwatchorg/covidwatch-ios-en/pulls?q=author%3AAndreasInk">
             Covid Watch
           </a>
         </p>

@@ -28,7 +28,7 @@ function Dev() {
       <div  className='showcase-div'> 
       
       <img className="showcase" src={Vit}></img>
-      <a className="btn-cta" href='https://vito-website.vercel.app'>
+      <a className="btn-cta" href='https://vitovitals.org'>
       <button class="button-1" role="button">Explore Vito</button>
       </a>
       
