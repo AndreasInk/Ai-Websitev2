@@ -1,7 +1,6 @@
 
 import React from 'react'
 import './apps.css';
-import Appz from "../res/Mock.svg"
 function Apps(props) {
   return (
     <div className="section apps" id="apps">

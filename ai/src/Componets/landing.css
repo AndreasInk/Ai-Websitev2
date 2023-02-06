@@ -6,6 +6,12 @@
     overflow-x:visible;
     height: 125vh;
   }
+  @media only screen and (max-width: 768px) {
+    .Landing {
+    
+      height: 45vh;
+    }
+  }
   .Stack {
     width: 100vw;
     position: absolute;
